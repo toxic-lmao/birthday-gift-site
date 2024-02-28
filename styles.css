@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    font-family: ios;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#hage {
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#hdob {
+    margin: 0;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#person {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: "ios";
+    src: url(SF-Pro-Text-Regular.otf);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-img-dance, .gift-img-react {
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(images/wrapper.jpg);
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.gift-img-describe {
+    height: 300px;
+    width: 350px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(images/wrapper.jpg);
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img-dance:hover {
+    background-image: url(images/dance.webp);
+}
+
+.gift-img-react:hover {
+    background-image: url(images/react.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.gift-img-describe:hover {
+    background-image: url(images/describe.webp);
+    height: 300px;
+    width: 350px;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
